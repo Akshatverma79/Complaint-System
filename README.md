@@ -1,113 +1,103 @@
-🧩 Introduction
+<p align="left"> <img src="https://img.shields.io/badge/Java-Servlets-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Build-Ant-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Server-Apache%20Tomcat-yellow?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/License-Custom-lightgrey?style=for-the-badge" /> </p>
+Features
 
-The Complaint System is designed to provide a simple workflow where users can file complaints online. The backend processes these submissions and stores them (currently via Java logic—database integration can be added later). The system also includes an interface for administrators to view all submissions.
+📝 Submit complaints via HTML form
 
-This project is a good starting point for beginners learning:
+📄 Store and display complaint submissions
 
-Java Servlets
+🔍 Admin dashboard to view all entries
 
-HTML form handling
+🧱 Simple folder structure for beginner learning
 
-Request/response flow
+🚀 Deployable on any Java servlet container
 
-Web application structure
-
-⭐ Features
-
-Submit complaints through a web form
-
-Store complaint details (name, contact, message)
-
-Admin interface to view submitted complaints
-
-Lightweight structure for easy learning and modification
-
-Build script included (build.xml)
-
-📁 Project Structure
+🏗️ Project Architecture
 Complaint-System/
-│
-├── nbproject/              # NetBeans project files
-├── src/                    # Java source code (servlets, logic)
-├── web/                    # Frontend HTML/JSP pages
-│   ├── index.html          # Main complaint form
-│   └── viewcomplaints.jsp  # Admin complaint listing
-│
-├── build.xml               # Ant build file
-└── README.md               # Project documentation
+├── nbproject/              # NetBeans configuration
+├── src/                    # Java backend (Servlets)
+│   └── com/akshat/...      # Complaint handling logic
+├── web/                    # Client-facing HTML/JSP views
+│   ├── index.html
+│   └── viewcomplaints.jsp
+├── build.xml               # Ant build script
+└── README.md
 
-🛠️ Technologies Used
-
-Java (Servlets)
-
-JSP / HTML
-
-Apache Tomcat or any servlet container
-
-Ant Build System (via build.xml)
-
-🚀 Installation
-1. Clone the Repository
+🛠️ Tech Stack
+Layer	Technology
+Backend	Java Servlets
+Frontend	HTML, JSP
+Build Tool	Apache Ant
+Server	Apache Tomcat
+IDE (optional)	NetBeans
+🚀 Installation Guide
+1️⃣ Clone the Repository
 git clone https://github.com/Akshatverma79/Complaint-System.git
 cd Complaint-System
 
-2. Build the Project (Ant)
+2️⃣ Build With Ant
 ant build
 
-3. Deploy to Tomcat
+3️⃣ Deploy on Tomcat
 
-Copy the generated WAR file or compiled classes to Tomcat’s webapps/ directory.
+Move the compiled output or WAR file to:
 
-4. Start the Server
+/path/to/tomcat/webapps/
 
-Run Tomcat and access the project in your browser:
+
+Restart Tomcat and open:
 
 http://localhost:8080/Complaint-System
 
-📖 Usage
-➤ Submit a Complaint
+💡 Usage
+▶️ Submitting a Complaint
 
-Open the home page.
+Open the home page
 
-Fill in your name, contact info, and complaint message.
+Enter your name, contact info, and message
 
-Submit the form — the server processes and stores the data.
+Submit the form
 
-➤ View Complaints (Admin)
+Server processes & records the data
 
-Admins can open the complaint viewer page to see all submitted complaints.
+▶️ Admin View
 
-If your project later includes authentication, that can be added here.
+Admins can access the complaint viewer page to see all stored complaints.
 
-🖼️ Screenshots
+🖼️ Screenshots / Demo
 
-(If you want, I can add real screenshots. Just upload them.)
+Upload your screenshots and I’ll insert them cleanly here.
 
-🔮 Future Improvements
+Example placeholders:
 
-Add MySQL/PostgreSQL database storage
+🌐 Home Page
 
-Add Login (User + Admin roles)
+📄 Admin Complaint View
 
-Add complaint status tracking
+🎬 Installation GIF
 
-Improve UI with Bootstrap or Tailwind
+(Add your GIF—I'll optimize it for GitHub.)
 
-Add API endpoints for integration
+🔮 Future Enhancements
 
-Add email notifications
+🔐 User & Admin authentication
+
+🗄 Database integration (MySQL/PostgreSQL)
+
+📊 Complaint status tracker
+
+🎨 UI modernization (Bootstrap / TailwindCSS)
+
+📱 Mobile-friendly layout
+
+📡 REST API endpoints
 
 🤝 Contributing
 
-Contributions are welcome! Feel free to:
-
-Open issues
-
-Submit pull requests
-
-Suggest improvements
+Contributions are welcome!
+Feel free to open issues or submit pull requests.
 
 📄 License
 
-You can add a license here (MIT recommended).
-If no license is specified, the project is All Rights Reserved by default.
+This project currently has no license.
+You can choose: MIT / Apache 2.0 / GPL / Custom.
+Tell me your preference and I’ll add the proper file.
