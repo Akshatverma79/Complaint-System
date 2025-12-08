@@ -96,8 +96,3 @@ Example placeholders:
 Contributions are welcome!
 Feel free to open issues or submit pull requests.
 
-📄 License
-
-This project currently has no license.
-You can choose: MIT / Apache 2.0 / GPL / Custom.
-Tell me your preference and I’ll add the proper file.
